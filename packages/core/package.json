@@ -2,5 +2,18 @@
   "name": "@firebook/core",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx src",
+    "lint:fix": "yarn lint --fix",
+    "prebuild": "tsc --noEmit && rimraf lib",
+    "build": "rollup -c ./rollup.config.js"
+  },
+  "devDependencies": {
+    "@mizchi/test": "^0.1.1",
+    "esbuild": "^0.14.14",
+    "esbuild-register": "^3.3.2",
+    "typescript": "^4.5.5"
+  }
 }
