@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "check": "yarn tsc  --watch"
   },
   "dependencies": {
     "@firebook/core": "1.0.0",

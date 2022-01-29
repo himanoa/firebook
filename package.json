@@ -9,7 +9,8 @@
   "scripts": {
     "start": "echo 'TODO start script'",
     "build": "echo 'TODO build script'",
-    "dev": "ultra -r yarn run dev "
+    "dev": "ultra -r yarn run dev ",
+    "check": "ultra -r yarn run check "
   },
   "devDependencies": {
     "rollup": "^2.60.1",

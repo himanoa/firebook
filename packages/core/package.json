@@ -10,7 +10,8 @@
     "lint": "echo 'TODO'",
     "lint:fix": "echo 'TODO'",
     "build": "rollup -c ./rollup.config.js",
-    "dev": "yarn build -w"
+    "dev": "yarn build -w",
+    "check": "yarn tsc --noEmit --watch"
   },
   "devDependencies": {
     "@mizchi/test": "^0.1.1",
