@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "check": "yarn tsc  --watch"
+    "check": "yarn tsc  --watch --noEmit"
   },
   "dependencies": {
     "@firebook/core": "1.0.0",
