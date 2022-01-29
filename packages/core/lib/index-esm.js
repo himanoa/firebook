@@ -1,7 +1,13 @@
-// export * from "./models"
-// export * from "./reader"
-// export * from "./writer"
-const empty = () => {
-};
+import { test, run } from '@mizchi/test';
 
-export { empty };
+const buildTagId = (value) => {
+    return value;
+};
+const isMain = require.main === module;
+if (process.env.NODE_ENV === "test") {
+    test("test1", () => {
+    });
+    run({ isMain });
+}
+
+export { buildTagId };
