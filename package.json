@@ -8,7 +8,13 @@
   "license": "MIT",
   "scripts": {
     "start": "echo 'TODO start script'",
-    "build": "echo 'TODO build script'"
+    "build": "echo 'TODO build script'",
+    "dev": "yarn workspaces foreach --all -p -vi run dev "
+  },
+  "devDependencies": {
+    "rollup": "^2.60.1",
+    "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-typescript2": "^0.31.1"
   },
   "workspaces": {
     "packages": [
