@@ -7,7 +7,7 @@
   "author": "himanoa <matsunoappy@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "TODO start script",
-    "build": "TODO build script"
+    "start": "echo 'TODO start script'",
+    "build": "echo 'TODO build script'"
   }
 }
