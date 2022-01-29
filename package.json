@@ -9,16 +9,19 @@
   "scripts": {
     "start": "echo 'TODO start script'",
     "build": "echo 'TODO build script'",
-    "dev": "yarn workspaces foreach --all -p -vi run dev "
+    "dev": "ultra -r yarn run dev "
   },
   "devDependencies": {
     "rollup": "^2.60.1",
     "rollup-plugin-dts": "^4.0.1",
-    "rollup-plugin-typescript2": "^0.31.1"
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.5.5",
+    "ultra-runner": "^3.10.5"
   },
   "workspaces": {
     "packages": [
       "packages/*"
     ]
-  }
+  },
+  "packageManager": "yarn@1.22.1"
 }
