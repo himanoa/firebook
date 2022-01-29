@@ -9,5 +9,10 @@
   "scripts": {
     "start": "echo 'TODO start script'",
     "build": "echo 'TODO build script'"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
   }
 }
