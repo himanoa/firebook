@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "firebook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:himanoa/firebook.git",
+  "author": "himanoa <matsunoappy@gmail.com>",
+  "license": "MIT"
+}
