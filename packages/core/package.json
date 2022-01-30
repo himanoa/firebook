@@ -6,7 +6,7 @@
   "module": "lib/index-esm.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "node -r esbuild-register src/index.ts.js",
+    "test": "find src/*.ts src/**/*.ts | xargs -n1 node -r esbuild-register",
     "lint": "echo 'TODO'",
     "lint:fix": "echo 'TODO'",
     "build": "rollup -c ./rollup.config.js",
@@ -21,6 +21,7 @@
     "rollup": "^2.66.1",
     "rollup-plugin-dts": "^4.1.0",
     "rollup-plugin-typescript2": "^0.31.1",
+    "ts-results": "^3.3.0",
     "typescript": "^4.5.5"
   },
   "files": [

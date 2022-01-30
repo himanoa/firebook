@@ -10,7 +10,8 @@
     "start": "echo 'TODO start script'",
     "build": "echo 'TODO build script'",
     "dev": "ultra -r yarn run dev ",
-    "check": "ultra -r yarn run check "
+    "check": "ultra -r yarn run check ",
+    "test": "NODE_ENV=test yarn workspace @firebook/core run test "
   },
   "devDependencies": {
     "rollup": "^2.60.1",
