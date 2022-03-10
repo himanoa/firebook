@@ -8,9 +8,10 @@ declare const {{pascal_case identify}}IdSymbol: unique symbol
 
 type {{pascal_case identify}}IdValue = unknown
 
-export type {{pascal_case identify}}Id = Branded<{{pascal_case identify}}IdValue, {{pascal_case identify}}IdSymbol>
+export type {{pascal_case identify}}Id = Branded<{{pascal_case identify}}IdValue, typeof {{pascal_case identify}}IdSymbol>
 
 export type {{pascal_case identify}} = {
+
 }
 
 export const build{{pascal_case identify}}Id = (value: {{pascal_case identify}}IdValue):  {{pascal_case identify}}Id =>  {
